@@ -1,0 +1,63 @@
+body {
+    background-color: #000000;
+}
+
+main {
+    height: 100vh;
+}
+.btn-lg {
+    cursor: pointer;
+}
+.btn-lg i {
+    animation: rotateFade 1s;
+}
+
+.menu {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1000;
+    top: 0;
+    left: 0;
+    background-color: rgb(31, 31, 31);
+    overflow: hidden;
+    transition: 1s;
+  }
+  
+  .menu-content {
+    position: relative;
+    top: 25%;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+  }
+  
+  .menu a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 36px;
+    color: #b8b8b8;
+    display: block;
+    transition: 0.3s;
+    font-weight: 500;
+  }
+  
+  .menu a:hover, .menu a:focus {
+    color: #ffffff;
+  }
+  
+  @media screen and (max-height: 450px) {
+    .menu a {font-size: 20px}
+  }
+  
+@keyframes rotateFade {
+    0%{ 
+        opacity: 0;
+        transform: rotate(0deg);
+        transform: scale(0.5);
+    }
+    100%{
+        opacity: 1;
+        transform: rotate(180deg);
+    }
+}
