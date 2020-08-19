@@ -1,0 +1,11 @@
+body {
+    padding-top: 50px;
+    background-color: black !important;
+}
+.work--container {
+    margin: 10px 0px;
+}
+.work--container p {
+    text-align: center;
+    font-size: 1.1rem;
+}
