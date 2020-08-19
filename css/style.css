@@ -1,5 +1,8 @@
-body {
+html, body {
     background-color: #000000;
+    scroll-behavior: smooth;
+    margin: 0;
+    padding: 0;
 }
 
 main {
@@ -19,7 +22,7 @@ main {
     z-index: 1000;
     top: 0;
     left: 0;
-    background-color: rgb(31, 31, 31);
+    background-color:black;
     overflow: hidden;
     transition: 1s;
   }
