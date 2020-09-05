@@ -5,9 +5,6 @@ html, body {
     padding: 0;
 }
 
-main {
-    height: 100vh;
-}
 .btn-lg {
     cursor: pointer;
 }
@@ -52,6 +49,14 @@ main {
     .menu a {font-size: 20px}
   }
   
+
+header {
+  min-height: 100vh; 
+  background-image: url(../img/64f2c469421155.5e93d8e4015f1.jpg); 
+  background-repeat: no-repeat; 
+  background-position: center; 
+  background-size: cover;
+}
 @keyframes rotateFade {
     0%{ 
         opacity: 0;
