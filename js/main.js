@@ -26,7 +26,7 @@ class AnimatedNavbar {
         this.status = 'closed';
     }
     changeButtonToOpen () {
-        this.button.innerHTML = '<i class="fas fa-bars"></i>';
+        this.button.innerHTML = '<i class="fas fa-bars text-dark"></i>';
     }
     changeButtonToClose () {
         this.button.innerHTML = '<i class="fas fa-times"></i>';
