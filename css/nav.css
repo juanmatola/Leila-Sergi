@@ -43,6 +43,13 @@
     background-color: black;
 }
 
+#openNav {
+    cursor: pointer;
+}
+#openNav i {
+    animation: rotateFade 1s;
+}
+
 @media screen and (max-height: 450px) {
     .menu a {font-size: 20px}
 }
@@ -58,3 +65,4 @@
         transform: rotate(180deg);
     }
 }
+
