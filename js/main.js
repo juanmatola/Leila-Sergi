@@ -19,10 +19,12 @@ class AnimatedNavbar {
     }
     open () {
         this.navbar.style.width = '100%';
+        this.navbar.style.opacity = '1';
         this.status = 'open';
     }
     close () {
         this.navbar.style.width = '0%';
+        this.navbar.style.opacity = '0';
         this.status = 'closed';
     }
     changeButtonToOpen () {
