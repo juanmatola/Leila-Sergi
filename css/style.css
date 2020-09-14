@@ -7,8 +7,8 @@ html, body {
 
 
 header {
-  min-height: 100vh; 
-  background-image: url(../img/64f2c469421155.5e93d8e4015f1.jpg); 
+  height: calc(100vh - 48px);
+  /* background-image: url(../img/64f2c469421155.5e93d8e4015f1.jpg);  */
   background-repeat: no-repeat; 
   background-position: center; 
   background-size: cover;
