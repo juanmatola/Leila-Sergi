@@ -1,7 +1,10 @@
+/* General */
 body .works{
     background-color: white !important;
     margin-bottom: 48px;
 }
+
+/* Projectos */
 .work--container {
     margin: 2vh 0vh;
     height: 50vh;
@@ -18,12 +21,21 @@ body .works{
     opacity: 1;
 }
 
+/* Titulo */
+
+#works-title{
+    display: none;
+}
+
+
 /* Media querys */
 
 
 @media (min-width: 768px){
-    .work--container {
 
+    #works-title{
+        display: block;
+        font-size: 10vh;
     }
     .work--container a {
         opacity: 0;
