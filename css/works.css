@@ -17,3 +17,18 @@ body .works{
     left: 3%;
     opacity: 1;
 }
+
+/* Media querys */
+
+@media (min-width: 768px){
+
+    .work--container a {
+        opacity: 0;
+        transition: .2s;
+    }
+
+    .work--container:hover a {
+        opacity: 1;
+        transition: .2s;
+      }
+}
