@@ -5,8 +5,12 @@ body .works{
     margin: 2vh 0vh;
     height: 50vh;
     background-size: cover;
+    position: relative;
 }
 .work--container a {
     text-align: center;
     font-size: 1.1rem;
+    position: absolute;
+    top: 90%;
+    left: 3%;
 }
