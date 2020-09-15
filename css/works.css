@@ -1,11 +1,13 @@
 body .works{
     background-color: white !important;
+    margin-bottom: 48px;
 }
 .work--container {
     margin: 2vh 0vh;
     height: 50vh;
     background-size: cover;
     position: relative;
+    border: solid 1px;
 }
 .work--container a {
     text-align: center;
@@ -13,4 +15,5 @@ body .works{
     position: absolute;
     top: 90%;
     left: 3%;
+    opacity: 1;
 }
