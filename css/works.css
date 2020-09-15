@@ -3,6 +3,8 @@ body {
 }
 .work--container {
     margin: 10px 0px;
+    height: 50vh;
+    background-size: cover;
 }
 .work--container p {
     text-align: center;
