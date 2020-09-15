@@ -20,8 +20,11 @@ body .works{
 
 /* Media querys */
 
-@media (min-width: 768px){
 
+@media (min-width: 768px){
+    .work--container {
+
+    }
     .work--container a {
         opacity: 0;
         transition: .2s;
