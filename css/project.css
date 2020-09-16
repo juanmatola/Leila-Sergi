@@ -16,3 +16,15 @@
     height: 40vh;
     background-color: grey;
 }
+
+.project-share a{
+    color: white;
+    font-size: 5vh;
+    letter-spacing: 10px;
+}
+
+/* por el tema del boton works que tapa abajo*/
+
+#body-projects{
+    margin-bottom: 48px;
+}
