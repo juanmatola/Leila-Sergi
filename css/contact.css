@@ -1,8 +1,18 @@
-.contact{
-    margin-bottom: 30px;
+/* General */
+
+
+/* Imagen inicial de pagina*/
+
+#contact-img div{
+    height: 100vh;
+    display: flex;
+    background-size: cover;
+    align-items: center;
+    justify-content: center;
 }
-.contact p {
-    padding: 0;
-    margin: 0;
-    line-height: 18px;
+
+/* Formulario contacto */
+
+#contact-form{
+    
 }
