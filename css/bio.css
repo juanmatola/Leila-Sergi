@@ -1,7 +1,18 @@
 /* General */
 
+#aboutme-description .container{
+    text-align: left;
+    margin-left: 15px; /* porque hay un margen en el boton de menu*/
+}
 
+#aboutme-description p{
+    text-align: left;
+}
 
+#aboutme-description img{
+    height: 50vh;
+    width: 100%;
+}
 
 
 /* por el tema del boton works que tapa abajo*/
