@@ -26,3 +26,12 @@
     margin-top: 40px;
 }
 
+
+/* media query*/
+
+@media (min-width: 768px){
+    #aboutme-img img{
+        height: auto;
+        width: auto;
+    }
+}
