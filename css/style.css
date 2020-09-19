@@ -1,3 +1,6 @@
+/*fuente Athomic*/
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&display=swap'); 
+
 html, body {
     background-color: #000000;
     scroll-behavior: smooth;
@@ -28,4 +31,22 @@ header {
     align-items: center;
     justify-content: center;
     color: white;
+}
+
+
+/* footer */
+
+footer{
+  height: 30px; 
+  color: white; 
+  margin-bottom: 48px;
+}
+footer a {
+  font-family: 'Audiowide';
+}
+
+@media (max-width: 768px) {
+  footer {
+    height: 60px;
+  }
 }
