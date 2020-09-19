@@ -42,6 +42,9 @@
     border-bottom:2px solid white;
 
 }
+#contact-form a{
+    color: white;
+}
 
 /* media query */
 
