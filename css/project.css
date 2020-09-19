@@ -12,7 +12,7 @@
     background-color: grey;
 }
 
-.lala{
+.project-img{
     height: 40vh;
     background-color: grey;
 }
@@ -28,4 +28,12 @@
 #body-projects{
     margin-bottom: 48px;
     margin-top: 40px;
+}
+
+/* media query */
+
+@media (min-width: 768px){
+    #project-video{
+        height: 60vh;
+    }
 }
