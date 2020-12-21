@@ -31,7 +31,7 @@ class AnimatedNavbar {
         this.button.innerHTML = '<i class="fas fa-bars"></i>';
     }
     changeButtonToClose () {
-        this.button.innerHTML = '<i class="fas fa-times"></i>';
+        this.button.innerHTML = '<i class="fas fa-times text-white"></i>';
     }
 
 }
