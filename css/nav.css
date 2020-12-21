@@ -54,6 +54,10 @@
     animation: rotateFade 1s;
 }
 
+.fadein{
+    animation: fade 1s;
+}
+
 @media screen and (max-height: 450px) {
     .menu a {font-size: 20px}
 }
@@ -67,6 +71,14 @@
     100%{
         opacity: 1;
         transform: rotate(180deg);
+    }
+}
+@keyframes fade {
+    0%{ 
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
     }
 }
 
