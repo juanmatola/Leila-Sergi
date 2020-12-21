@@ -28,10 +28,10 @@ class AnimatedNavbar {
         this.status = 'closed';
     }
     changeButtonToOpen () {
-        this.button.innerHTML = '<i class="fas fa-bars"></i><span class="pl-3 fadein">Menu</span>';
+        this.button.innerHTML = '<i class="fas fa-bars"></i><span class="pl-3 fadein d-none d-md-inline">Menu</span>';
     }
     changeButtonToClose () {
-        this.button.innerHTML = '<i class="fas fa-times text-white"></i><span class="pl-3 text-white fadein">Close</span>';
+        this.button.innerHTML = '<i class="fas fa-times text-white"></i><span class="pl-3 text-white fadein d-none d-md-inline">Close</span>';
     }
 
 }
