@@ -71,6 +71,21 @@
     .menu a {font-size: 20px}
 }
 
+/*Mobile*/
+@media (max-width: 764px) {
+    .menuTitle .menuTitle__img {
+        width: 51px;
+        height: auto;
+    }
+    .menuTitle {
+        height: 47px;
+    }
+    .menuButton{
+        height: 47px;
+        padding-left: 14px;
+    }
+}
+
 @keyframes rotateFade {
     0%{ 
         opacity: 0;
