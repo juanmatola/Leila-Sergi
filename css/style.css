@@ -10,6 +10,9 @@ html, body {
 .bg-blanco {
   background-color: white !important;
 }
+.bg-negro{
+  background-color: black !important;
+}
 
 
 header {
