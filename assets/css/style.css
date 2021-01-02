@@ -36,6 +36,32 @@ header {
     color: white;
 }
 
+/* home contact */
+.home__contact{
+  width: 100vw;
+  height: 400px;
+  background-color: white;
+  padding: 50px 18px;
+}
+.home__contact--title{
+  font-size: 50px;
+  font-family: 'DrukBold';
+  letter-spacing: -3px !important;
+}
+.home__contact--content{
+  font-family: 'GraphikRegular';
+  font-size: 16px;
+  color: #000000;
+  line-height: 21px;
+}
+.home__contact--content a {
+  text-decoration: none;
+  color: inherit;
+}
+.home__contact--content a:nth-of-type(1) {
+  text-decoration: underline;
+}
+
 
 /* footer */
 
