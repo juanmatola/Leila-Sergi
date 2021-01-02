@@ -1,6 +1,18 @@
 @font-face {
-    font-family: ‘GraphikMedium’;
+    font-family: 'GraphikMedium';
     src: url(../fonts/GraphikMedium.otf);
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'GraphikRegular';
+    src: url(../fonts/GraphikRegular.otf);
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'DrukBold';
+    src: url(../fonts/DrukText-Bold.otf);
     font-weight: normal;
     font-style: normal;
 }
@@ -16,7 +28,7 @@
     background-color:black;
     overflow: hidden;
     transition: 1s;
-    font-family: ‘GraphikMedium’;
+    font-family: 'GraphikMedium';
 }
 
 .menu-content {
