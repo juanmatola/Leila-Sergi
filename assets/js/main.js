@@ -9,7 +9,7 @@ class AnimatedNavbar {
         this.button.addEventListener('click', () => {this.action();});
     }
     action (){
-        if (this.status == 'closed') {
+        if (this.status == 'closed') {  
             this.open();
             this.changeButtonToClose();
         }else{

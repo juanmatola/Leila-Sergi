@@ -1,11 +1,29 @@
-let video = document.getElementById('homeVideo');
+class AutoVideo {
+    constructor (videoId){
+        this.video = document.getElementById(videoId);
+        this.video.muted = true;
+        this.play();
+    }
 
-setTimeout(()=>{
-    video.muted = true;
-    video.play();
-},200);
+    play() {
+        this.video.play();
+    }
 
-video.onended = () => {
-    video.controls = true;
-    video.play();
-};
+    pause() {
+        this.video.pause();
+    }
+
+    loopOn(){
+        this.video.onended = () => {
+            this.video.controls = true;
+            this.video.play();
+        }
+    }
+    
+    loopOff() {
+        this.video.onended = null;
+    }
+}
+
+let homeVideo = new AutoVideo('homeVideo');
+homeVideo.loopOn();
