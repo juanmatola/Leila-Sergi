@@ -1,0 +1,17 @@
+.work__header{
+    height: 95vh;
+    background-color: black;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.work__header--title{
+    font-family: 'DrukBold';;
+    font-size: 147px;
+    text-transform: uppercase;
+    letter-spacing: -6px;
+    color: white;
+    text-align: center;
+}
