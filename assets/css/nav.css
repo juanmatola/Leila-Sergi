@@ -16,7 +16,9 @@
     font-weight: normal;
     font-style: normal;
 }
-
+.nav{
+    z-index: 1000;
+}
 .menu {
     height: 100%;
     width: 0;
@@ -94,7 +96,9 @@
 .fadein{
     animation: fade 1s;
 }
-
+.bottom_navigation{
+    z-index: 999;
+}
 /* @media screen and (max-height: 450px) {
     .menu a {font-size: 20px}
 } */
