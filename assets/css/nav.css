@@ -82,7 +82,9 @@
     width: 107px;
     height: auto;
 }
-
+.invertImageColor{
+    filter: invert(1);
+}
 #openNav {
     cursor: pointer;
 }

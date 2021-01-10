@@ -1,7 +1,9 @@
 class AnimatedNavbar {
-    constructor (navId,buttonId){
+    constructor (navId,buttonId, logoId){
         this.navbar = document.getElementById(navId);
         this.button = document.getElementById(buttonId);
+        this.logo = document.getElementById(logoId);
+        this.invert = false;
         this.status = 'closed';
         this.init();
     }
@@ -20,11 +22,18 @@ class AnimatedNavbar {
     open () {
         this.navbar.style.width = '100%';
         this.navbar.style.opacity = '1';
+        if(this.logo.classList.contains('invertImageColor')){
+            this.logo.classList.remove('invertImageColor');
+            this.invert = true;
+        }
         this.status = 'open';
     }
     close () {
         this.navbar.style.width = '0%';
         this.navbar.style.opacity = '0';
+        if (this.invert === true) {
+            this.logo.classList.add('invertImageColor');
+        }
         this.status = 'closed';
     }
     changeButtonToOpen () {
@@ -36,4 +45,4 @@ class AnimatedNavbar {
 
 }
 
-let nav = new AnimatedNavbar('myNav','openNav');
+let nav = new AnimatedNavbar('myNav','openNav', 'myLogo');
