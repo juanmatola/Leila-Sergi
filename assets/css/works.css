@@ -35,4 +35,14 @@
         font-size: 40px;
         letter-spacing: -2px;
     }
+    .work{
+        margin-top: 30px;
+    }
+    .page__container{
+        padding-top: 62px;
+    }
+    .work__info p {
+        font-size: 15px;
+        text-align: justify;
+    }
 }
