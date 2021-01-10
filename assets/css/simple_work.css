@@ -14,3 +14,31 @@
     color: white;
     text-align: center;
 }
+
+.work__image{
+    margin-top: 38px;
+}
+.work__imageInRow--left{
+    padding-right: 19px !important;
+}
+.work__imageInRow--right{
+    padding-left: 19px !important;
+}
+
+@media(max-width: 768px){
+    .work__header--title{
+        font-size: 55px;
+        letter-spacing: -4px;
+    }
+    .work__image{
+        margin-top: 11px;
+    }
+    .work__imageInRow--left{
+        padding-right: 0px !important;
+    }
+    .work__imageInRow--right{
+        padding-left: 0px !important;
+    }
+    
+    
+}
