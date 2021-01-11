@@ -18,6 +18,10 @@
 .work__image{
     margin-top: 38px;
 }
+.work__image--item{
+    width: 100%;
+    object-fit: cover;
+}
 .work__imageInRow--left{
     padding-right: 19px !important;
 }
