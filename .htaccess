@@ -1,4 +1,6 @@
+Options +FollowSymLinks
 RewriteEngine on
 
 RewriteRule ^works$ works.html
 RewriteRule ^about$ about.html
+RewriteRule ^work/([a-z]+)$ /work/$1.html
