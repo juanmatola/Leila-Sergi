@@ -1,0 +1,4 @@
+RewriteEngine on
+
+RewriteRule ^works$ works.html
+RewriteRule ^about$ about.html
