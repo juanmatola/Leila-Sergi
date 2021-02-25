@@ -28,6 +28,10 @@
 .work__imageInRow--right{
     padding-left: 19px !important;
 }
+.work__image iframe{
+    width: 100%;
+    height: 900px;
+}
 .project__about{
     margin-top: 131px;
     margin-bottom: 131px;
@@ -74,6 +78,9 @@
     }
     .work__imageInRow--right{
         padding-left: 0px !important;
+    }
+    .work__image iframe{
+        height: 400px;
     }
 
     .project__about{
