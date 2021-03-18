@@ -47,6 +47,10 @@
     font-size: 20px;
     line-height: 24px;
 }
+.project__about--description  a{
+    color: black;
+    text-decoration: underline;
+}
 .share__container{
     text-align: right;
 }
