@@ -48,6 +48,7 @@
     display: block;
     transition: 0.3s;
     line-height: 68px;
+    white-space: nowrap;
 }
 .menu a:hover {
     text-decoration: underline;
